@@ -1,0 +1,18 @@
+Liens et articles sur le sujet:
+
+http://ieeeaccess.ieee.org/special-sections/software-defined-networks-for-energy-internet-and-smart-grid-communications/
+http://theinstitute.ieee.org/career-and-education/career-guidance/how-to-break-into-some-of-the-fastestgrowing-tech-fields
+https://www.ieee.org/searchresults/index.html?q=knowledge+defined+networking#gsc.tab=0&gsc.q=knowledge%20defined%20networking&gsc.page=1
+https://dl.acm.org/citation.cfm?id=3167242
+https://ieeexplore.ieee.org/abstract/document/8615227
+https://www.osapublishing.org/jocn/abstract.cfm?uri=jocn-10-10-D84
+https://arxiv.org/abs/1701.07274
+
+
+Application du Sujet : 
+
+• Knowledge-Defined Networking
+https://github.com/knowledgedefinednetworking
+• DRL for SDN Routing (code and data-sets)
+https://github.com/knowledgedefinednetworking/
+a-deep-rl-approach-for-sdn-routing-optimization

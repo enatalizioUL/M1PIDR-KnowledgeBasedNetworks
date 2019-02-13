@@ -1,0 +1,62 @@
+The number of connected devices in the network is growing. 
+net work management is becoming more complex.
+Closed-loop network management can be a solution to adress 
+the problem.
+The concept of self-driving ntwork has been arising as
+the solution of th closed-loop network management.
+knpwledge defined networking, network telemetry and software
+definef network are fundamental building blocks to realise 
+self driving network.this article propose an architecture 
+for self-driving network and suggest its use cases.
+Background :
+P4 is a high level language for programming protocol
+independent packet processors, is used to progrm how 
+packets are to be processed in the data path. allowing 
+the programmers to decide how a switch parses, modifies
+and forward packet with their own parsers and actions.
+INT is a network monitoring framework designed to collect
+and report the states directly from data plane.
+
+Proposed Architecture :
+1.Control Plane:
+SDN controller works as control plane and desploys INT
+functionnality to programmable switchrs.it also controls 
+network monitoring using INT.
+
+2.Data Plane:
+in here we generate for each packets an INT metadata
+extracted and trasmitted to management plane.
+
+3. Management plane: 
+INT metadata is collected in this step, stored and 
+aggregated for furthuer analysis in knowledge plane. INT 
+metadata collector converts the metadata into JSON 
+format and sends it to the distributed messaging system.
+The distributed messaging system provides scalability of
+the plane.It distributes the metadata to one of the data
+stream processors.
+
+4. Knowledge Plane :
+In knowledge plane, the data gathered in management plane
+is fed to ML algorithmms and the output of the algorithms
+is knowledge. a model of the network. Knowledge is then
+converted into the form of intent to describe requirement 
+to chnage network configuration.
+
+
+USE CASE : Traffic Engineeringm Netzork Anomaly Detection 
+
+Evaluation and Discussion:
+
+The performance evaluation is done by measuring IntMon 
+processing time, CPU usage and calculating network bandwidth
+overhead.
+
+Conclusion : 
+The article presented the concept of self-driving network
+telemetry and KDN brings the intelligence to the network
+management, using the telemetry data.The article presented 
+also the design and implementation of an INT monitoring 
+framework, on the ONOS controller that enables packet-level 
+monitoring.
+
